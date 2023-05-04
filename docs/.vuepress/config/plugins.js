@@ -27,7 +27,7 @@ module.exports = [
     },
   ],
   ["vuepress-plugin-mermaidjs"],
-  // ["sitemap", { hostname: "http://Auorui.com" }],
+  ["sitemap", { hostname: "http://auorui.github.io.com/" }],
   // 谷歌统计代码
   [
     "@vuepress/google-analytics",
