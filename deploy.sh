@@ -10,9 +10,9 @@ npm run build
 cd docs/.vuepress/dist
 
 # deploy to github pages
-echo 'Auorui.github.io.com' > CNAME
+echo 'www.auorui.com' > CNAME
 
-echo 'google.com, pub-1725717718088510, DIRECT, f08c47fec0942fa0' > ads.txt
+# echo 'google.com, pub-1725717718088510, DIRECT, f08c47fec0942fa0' > ads.txt
 
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'

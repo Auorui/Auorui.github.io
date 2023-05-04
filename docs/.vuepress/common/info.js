@@ -8,8 +8,7 @@ const link = "https://github.com/Auorui/";
 // 底部的 | 后的描述
 const footerTitle = "icetea";
 // 头像图片
-const avatar =
-  "https://cdn.statically.io/gh/Auorui/AI-Learning-Materials/main/webbg/blue.jpg";
+const avatar ="https://cdn.statically.io/gh/Auorui/AI-Learning-Materials/main/webbg/blue.jpg";
 // 头像下的昵称
 const name = "夏天是冰红茶";
 // 头像下的签名
