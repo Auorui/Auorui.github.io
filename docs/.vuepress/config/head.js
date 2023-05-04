@@ -8,7 +8,7 @@ module.exports = [
     "link",
     {
       rel: "shortcut icon",
-      href: "https://cdn.staticaly.com/gh/xingcxb/blog_img@blog1/blog/basic/favicon.ico",
+      href: "https://cdn.statically.io/gh/Auorui/AI-Learning-Materials/main/webbg/%E5%86%B0%E7%BA%A2%E8%8C%B6.png",
     },
   ], //favicons，资源放在public文件夹
   [
@@ -30,7 +30,7 @@ module.exports = [
     "meta",
     {
       name: "keywords",
-      content: "不器blog,Go,Golang开发,VuePress搭建,记录生活和技术路程",
+      content: "夏天是冰红茶blog,Python,深度学习,VuePress搭建,记录程序人生和技术路程",
     },
   ],
   [

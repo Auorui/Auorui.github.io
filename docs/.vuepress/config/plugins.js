@@ -12,11 +12,11 @@ module.exports = [
     {
       choosen: "gitalk",
       options: {
-        clientID: "51e233f2dada49dcdac8",
-        clientSecret: "38cc569d9433f9113c256ef3cf0b25ade576f5cc",
-        repo: "xingcxb.github.io", // 仓库
-        owner: "xingcxb", //所有者
-        admin: ["xingcxb"],
+        clientId: 'fc98d1c5b7de4043ce22',
+        clientSecret: '62088a8f646dd5d40a1217dc7ecb8610588e4cbe',
+        repo: "Auorui.github.io", // 仓库
+        owner: "Auorui", //所有者
+        admin: ["Auorui"],
         distractionFreeMode: false,
         pagerDirection: "last", // 'first'正序 | 'last'倒序
         id: "<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>", //  页面的唯一标识,长度不能超过50
@@ -27,7 +27,7 @@ module.exports = [
     },
   ],
   ["vuepress-plugin-mermaidjs"],
-  ["sitemap", { hostname: "https://xingcxb.com" }],
+  // ["sitemap", { hostname: "http://auorui.com" }],
   // 谷歌统计代码
   [
     "@vuepress/google-analytics",
@@ -103,11 +103,11 @@ module.exports = [
     "dynamic-title",
     {
       showIcon:
-        "https://cdn.staticaly.com/gh/xingcxb/blog_img@blog1/blog/basic/favicon.ico",
+        "https://cdn.statically.io/gh/Auorui/AI-Learning-Materials/main/webbg/%E5%86%B0%E7%BA%A2%E8%8C%B6.png",
       showText: "ヾ(≧▽≦*)o欢迎回来！",
       hideIcon:
-        "https://cdn.staticaly.com/gh/xingcxb/blog_img@blog1/blog/basic/favicon.ico",
-      hideText: "ಥ_ಥ不要走呀！",
+        "https://cdn.statically.io/gh/Auorui/AI-Learning-Materials/main/webbg/%E5%86%B0%E7%BA%A2%E8%8C%B6.png",
+      hideText: "ಥ_ಥ你别走呀！",
       recoverTime: 2000, //  持续时间
     },
   ],

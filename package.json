@@ -1,8 +1,8 @@
 {
-  "name": "xingcxb.github.io",
+  "name": "Auorui.github.io",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "symbol",
+  "author": "Auorui",
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev docs",
@@ -43,5 +43,6 @@
     "vue-tabs-component": "^1.5.0",
     "vuepress-plugin-comment": "^0.7.3",
     "vuepress-plugin-tabs": "^0.3.0"
-  }
+  },
+  "repository": "git@github.com:Auorui/Auorui.github.io.git"
 }

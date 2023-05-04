@@ -13,8 +13,8 @@ const { penName, link, avatar, name, slogan } = require("../common/info");
 module.exports = {
   nav, // 导航栏
   sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-  logo: "https://cdn.staticaly.com/gh/xingcxb/blog_img@blog1/blog/basic/logo.png", // 导航栏logo
-  repo: "https://github.com/xingcxb", // 导航栏右侧生成Github链接
+  logo: "https://cdn.statically.io/gh/Auorui/AI-Learning-Materials/main/webbg/%E5%86%B0%E7%BA%A2%E8%8C%B6.png", // 导航栏logo
+  repo: "https://github.com/Auorui", // 导航栏右侧生成Github链接
   searchMaxSuggestions: 10, // 搜索结果显示最大数
   lastUpdated: "更新时间", // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
   docsDir: "docs", // 指定根目录
@@ -86,10 +86,12 @@ module.exports = {
     ], // 第一个是白天的颜色（默认原图），第二个是黄昏的颜色，第三个是晚上的颜色，第四个是深夜的颜色。bgTimeColor 为 true 生效
     descFade: true, // 是否开启图片中间描述的淡入淡出效果，默认为 false
     desc: [
+      "即使慢，驰而不息，纵令落后，纵令失败，但一定可以达到他所向往的目标 —— 鲁迅",
       "有形即有度，有度必满盈。故君子之思不器，君子之行不器，君子之量不器 —— 《论语·为政》",
       "无善无恶心之体，有善有恶意之动，知善知恶是良知，为善去恶是格物。 -- 王阳明",
       "积跬步以至千里，致敬每个爱学习的你 —— 来自 Evan Xu",
       "这一生波澜壮阔或是不惊都没问题 —— 来自 Weibw",
+
     ], // 多条描述，如果填写则覆盖 index.md 的 tagline，不填写则默认读取 index.md 的 tagline，descFadeIn 为 true 生效
     descFontSize: "1.4rem", // desc 的字体大小，默认 1.4rem。提示：原主题是 1.1rem
     descFadeInTime: 200, // 描述的淡入效果持续时间，descFade 为 true 生效，默认 200 毫秒
@@ -117,17 +119,17 @@ module.exports = {
       {
         iconClass: "icon-youjian",
         title: "发邮件",
-        link: "mailto:xingcxb@qq.com",
+        link: "2165648225@qq.com",
       },
       {
         iconClass: "icon-github",
         title: "GitHub",
-        link: "https://github.com/xingcxb",
+        link: "https://github.com/Auorui",
       },
       {
         iconClass: "icon-erji",
         title: "听音乐",
-        link: "https://music.163.com/#/playlist?id=503418750",
+        link: "https://music.163.com/#/my/m/music/playlist?id=8396064448",
       },
     ],
   },

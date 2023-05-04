@@ -1,7 +1,7 @@
 const { penName, footerTitle } = require("../common/info");
 module.exports = {
   // 页脚信息
-  createYear: 2022, // 博客创建年份
+  createYear: 2023, // 博客创建年份
   copyrightInfo:
     penName +
     " | " +
