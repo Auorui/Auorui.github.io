@@ -8,7 +8,7 @@ module.exports = {
   // 使用npm包主题 vuepress-theme-vdoing
   theme: "vdoing",
   // 仓库地址
-  base: "/Auorui.github.io/",
+  base: "/",
   head,
   markdown: {
     lineNumbers: true, // 显示代码块的行号
