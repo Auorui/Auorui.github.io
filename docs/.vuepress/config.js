@@ -10,8 +10,14 @@ module.exports = {
   // 仓库地址
   base: "/",
   head,
+  extendMarkdown(md) {
+    md.set({ html: true });
+    md.use(require("markdown-it-katex"));
+},
+
   markdown: {
     lineNumbers: true, // 显示代码块的行号
+    
     extractHeaders: ["h2", "h3", "h4"], // 支持 h2、h3、h4 标题
   },
   // 多语言支持

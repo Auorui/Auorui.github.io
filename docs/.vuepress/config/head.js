@@ -55,6 +55,8 @@ module.exports = [
   //       src: "https://fastly.jsdelivr.net/npm/twikoo@1.4.18/dist/twikoo.all.min.js",
   //     },
   //   ],
+  ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css' }],
+  ['link', { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css" }],
 
   // 百度统计 js
   ["script", {}, baidutj],
