@@ -10,10 +10,10 @@ module.exports = {
   // 仓库地址
   base: "/",
   head,
-  extendMarkdown(md) {
-    md.set({ html: true });
-    md.use(require("markdown-it-katex"));
-},
+//   extendMarkdown(md) {
+//     md.set({ html: true });
+//     md.use(require("markdown-it-katex"));
+// },
 
   markdown: {
     lineNumbers: true, // 显示代码块的行号
