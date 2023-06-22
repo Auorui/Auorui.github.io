@@ -4,6 +4,7 @@ module.exports = {
   items: [
     // { text: "友情链接", link: "/more/friend/8e1a3d/" },
     { text: "免费信息", link: "/more/free/" },
+    { text: "GitHub精选", link: "/more/github/" },
     { text: "时间线", link: "/archives/" },
     { text: "关于", link: "/about/" },
   ],
